@@ -125,3 +125,25 @@ div.gallery {
     text-align: right;
   }
 }
+@media screen and (max-width:200px){
+  div.gallery{
+    width: auto;
+    height: auto;
+  }
+  .naslov .paragraf{
+    display: inline;
+  }
+  nav {
+    display: inline block;
+    text-align: center;
+  }
+  nav ul{
+    display: inline block;
+    text-align: center;
+
+  }
+  nav ul li a{
+    display: inline block;
+    text-align: center;
+  }
+}
